@@ -18,19 +18,7 @@
 #include <windows.h>
 #endif
 
-public char *   every_first_cmd = NULL;
-public int      new_file;
-public int      is_tty;
-public IFILE    curr_ifile = NULL_IFILE;
-public IFILE    old_ifile = NULL_IFILE;
-public struct scrpos initial_scrpos;
-public POSITION start_attnpos = NULL_POSITION;
-public POSITION end_attnpos = NULL_POSITION;
-public int      wscroll;
-public char *   progname;
-public int      quitting;
-public int      secure;
-public int      dohelp;
+
 
 #if LOGFILE
 public int      logfile = -1;
