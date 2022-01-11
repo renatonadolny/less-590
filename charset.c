@@ -27,9 +27,7 @@
 #include <windows.h>
 #endif
 
-extern int bs_mode;
 
-public int utf_mode = 0;
 
 /*
  * Predefined character sets,
