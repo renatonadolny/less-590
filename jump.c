@@ -15,7 +15,7 @@
 #include "less.h"
 #include "position.h"
 
-extern int jump_sline;
+##extern int jump_sline;
 extern int squished;
 extern int screen_trashed;
 extern int sc_width, sc_height;
